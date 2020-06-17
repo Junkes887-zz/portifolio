@@ -1,0 +1,66 @@
+div.container{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0;
+    margin-left: 3%;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color: #c1c1c1;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    background-color: white;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+
+.body {
+    background-color: #dcdcdc;
+    margin: 0 auto;
+    max-width: 67.2rem;
+    width: 50%;
+}
+
+@media only screen and (min-width: 800px) {
+    .body {
+        width: 100%;
+    }
+}
+
+.inContruction {
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 2%;
+}
+
+section h2 {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5%;
+    padding-top: 0.5%;
+}
+
+a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
