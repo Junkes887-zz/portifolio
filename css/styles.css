@@ -122,6 +122,22 @@ h2 {
     top: 10px;
 }
 
+.icon-back {
+    position: absolute;
+    width: 80px;
+    height: 66px;
+    left: 80px;
+    top: 10px;
+}
+
+.icon-others {
+    position: absolute;
+    width: 80px;
+    height: 52px;
+    left: 75px;  
+    top: 18px;
+}
+
 .card {
     top: 200px;
     position: absolute;
@@ -180,7 +196,7 @@ h2 {
 }
 
 .check-line-4 {
-    top: 219px;
+    top: 224px;
 }
 .text-card-1 {
     left: 59px;
@@ -199,7 +215,7 @@ h2 {
 }
 
 .text-line-4 {
-    top: 210px;
+    top: 215px;
 }
 
 .footer {
