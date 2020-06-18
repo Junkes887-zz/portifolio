@@ -1,4 +1,244 @@
-div.container{
+body {
+    position: relative;    
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    max-width: 67.2rem;
+    width: 50%;
+}
+
+p {
+    opacity: 0.7;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    color: #000000;
+}
+
+h1 {
+    position: absolute;
+    opacity: 0.8;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+h2 {
+    position: absolute;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    top: 62px;
+}
+
+.heaeder {
+    position: absolute;
+    width: 841px;
+    height: 285px;
+    left: 85px;
+    top: 35px;
+
+    background: #C4C4C4;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.corpo {
+    position: absolute;
+    width: 841px;
+    height: 570px;
+    left: 85px;
+    top: 320px;
+
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.img-pricipal{    
+    width: 200.87px;
+    height: 200px;
+    left: 135px;
+    top: 85px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.apresentacao{
+    position: absolute;
+    opacity: 0.8;
+    width: 127px;
+    height: 19px;
+    left: 282px;
+    top: 67px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.name {
+    width: 311px;
+    height: 35px;
+    left: 280px;
+    top: 80px;
+}
+
+.description-name {
+    width: 493px;
+    height: 76px;
+    left: 282px;
+    top: 124px;
+}
+
+.skills {
+    width: 311px;
+    height: 35px;
+    left: 36%;
+    top: 56px;
+}
+
+.description-skills {
+    width: 786px;
+    height: 82px;
+    left: 42px;
+    top: 124px;
+}
+
+.icon-html {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 80px;
+    top: 10px;
+}
+
+.card {
+    top: 200px;
+    position: absolute;
+    width: 255px;
+    height: 305px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.card-1 {
+    left: 21px;
+}
+
+.card-2 {
+    left: 294px;
+}
+
+.card-3 {
+    left: 566px;
+}
+
+.sub-title-1 {
+    width: 81px;
+    height: 23px;
+    left: 80px;
+}
+
+.sub-title-3 {
+    width: 81px;
+    height: 23px;
+    left: 91px;
+}
+
+.check {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 126px;
+    top: 633px;
+}
+
+.check-card-1 {
+    left: 25px;
+}
+
+.check-line-1 {
+    top: 107px;
+}
+
+.check-line-2 {
+    top: 147px;
+}
+
+.check-line-3 {
+    top: 185px;
+}
+
+.check-line-4 {
+    top: 219px;
+}
+.text-card-1 {
+    left: 59px;
+}
+
+.text-line-1 {
+    top: 99px;
+}
+
+.text-line-2 {
+    top: 139px;
+}
+
+.text-line-3 {
+    top: 177px;
+}
+
+.text-line-4 {
+    top: 210px;
+}
+
+.footer {
+    position: absolute;
+    width: 841px;
+    height: 106px;
+    left: 85px;
+    top: 871px;
+    background: #C4C4C4;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 60px;
+}
+
+.icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 40px;
+}
+
+.icon-github {
+    left: 40%;
+}
+
+.icon-gmail {
+    left: 48%;
+}
+
+.icon-linkedin {
+    left: 56%;
+}
+    
+@media only screen and (min-width: 800px) {
+    .body {
+        width: 100%;
+    }
+}
+
+/* div.container{
     width: 100%;
     font-family: 'Roboto', sans-serif;
     padding-left: 0;
@@ -26,19 +266,6 @@ div {
     padding-top: 1%;
 }
 
-.body {
-    background-color: #dcdcdc;
-    margin: 0 auto;
-    max-width: 67.2rem;
-    width: 50%;
-}
-
-@media only screen and (min-width: 800px) {
-    .body {
-        width: 100%;
-    }
-}
-
 .inContruction {
     text-align: center;
 }
@@ -63,4 +290,4 @@ p {
 a {
     color: black;
     font-family: 'Roboto', sans-serif;
-}
+} */
