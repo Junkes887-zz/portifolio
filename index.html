@@ -5,75 +5,39 @@
         <title>Henrique Alves Junkes</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css" type="text/css">
-        
+        <script src="js/script.js"></script>        
     </head>
     <body>
         <ul class="menu">
-            <li><a class="select" href="#">About</a></li>
-            <li><a href="skills.html">Links</a></li>               
+            <li>
+                <button id="btn-about">About</button>
+            </li>
+            <li>
+                <button id="btn-skills">Skills</button>
+            </li>               
         </ul>
-        <div class="about">
-            <img src="./assets/principal.png" alt="">
+        <div id="about" class="corpo">
+            <img src="./assets/principal.png" alt="" class="face">
             <p class="sub-name">Hello, my name is</p>
             <h1 class="name">Henrique Alves Junkes</h1>
             <p class="description-name">I am studying Information Systems at Esucri (Criciúma, SC), I work as a Full Stack programmer at Betha Sistemas. I graduated as a computer technician from Cedup Abílio Paulo school.</p>
+            <div class="icons">
+                <a href="https://github.com/Junkes887">
+                    <img class="icon-github" src="./assets/github.svg" alt="">
+                </a>
+                <a href="mailto:henriquejunkes887@gmail.com&subject=Portfolio Henrique Alves Junkes&body=">
+                    <img class="icon-gmail" src="./assets/gmail.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/henrique-alves-junkes-70bb9a170/">
+                    <img class="icon-linkedin" src="./assets/linkedin.svg" alt=""></a>
+            </div>
         </div>
-        <div class="icons">
-            <a href="https://github.com/Junkes887">
-                <img class="icon-github" src="./assets/github.svg" alt="">
-            </a>
-            <a href="mailto:henriquejunkes887@gmail.com&subject=Portfolio Henrique Alves Junkes&body=">
-                <img class="icon-gmail" src="./assets/gmail.svg" alt="">
-            </a>
-            <a href="https://www.linkedin.com/in/henrique-alves-junkes-70bb9a170/">
-                <img class="icon-linkedin" src="./assets/linkedin.svg" alt=""></a>
+        <div id="skills">
+            <div class="corpo">
+                <h1 class="name">Skills</h1>
+                <p class="description-name">I have been working with web programming for 4 years, I started programming at 15 years old, if you want to know more about me contact me.</p>
+            </div>
+            <div class="corpo"></div>
         </div>
-        <!-- <div class="corpo flex-box">
-            <h1 class="skills">Skills Overview</h1>
-            <p class="description-skills">I have been working with web programming for 4 years, I started programming at 15 years old, if you want to know more about me contact me.</p>
-
-            <div class="card card-1">
-                <img class="icon-html" alt="" src="./assets/html-coding.svg">
-                <h2 class="sub-title-1">Frontend</h2>
-                
-                <img class="check check-card-1 check-line-1" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-1">React</p>
-
-                <img class="check check-card-1 check-line-2" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-2">ReactNative</p>
-
-                <img class="check check-card-1 check-line-3" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-3">Javascript</p>
-
-                <img class="check check-card-1 check-line-4" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-4">AngularJS</p>
-            </div>
-            <div class="card card-2">
-                <img class="icon-back" alt="" src="./assets/terminal.svg">
-                <h2 class="sub-title-1">Backend</h2>
-                
-                <img class="check check-card-1 check-line-1" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-1">NodeJs</p>
-
-                <img class="check check-card-1 check-line-2" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-2">Java</p>
-
-                <img class="check check-card-1 check-line-3" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-3">Typescript</p>
-            </div>
-            <div class="card card-3">
-                <img class="icon-others" alt="" src="./assets/code-fork-symbol.svg">
-                <h2 class="sub-title-1">Others</h2>
-                
-                <img class="check check-card-1 check-line-1" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-1">Docker</p>
-
-                <img class="check check-card-1 check-line-2" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-2">PostegreSQL</p>
-
-                <img class="check check-card-1 check-line-3" src="./assets/check.svg" alt="">
-                <p class="text-card-1 text-line-3">Linux</p>
-            </div>
-        </div> -->
     </body>
 </html>
