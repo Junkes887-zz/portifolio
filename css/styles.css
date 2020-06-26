@@ -66,7 +66,7 @@ body {
 .corpo {
     position: absolute;
     width: 600px;
-    height: 253px;
+    height: 300px;
     left: 34%;
     top: 180px;
     text-align: center;
@@ -131,7 +131,7 @@ body {
     width: 131px;
     height: 30px;
     left: 41%;
-    top: 210px;
+    top: 262px;
 }
 
 .icons img {
@@ -146,7 +146,7 @@ body {
 }
 
 .icon-github:hover {
-    top: -10px;
+    top: -3px;
     transition: 0.5s;
 }
 
@@ -156,7 +156,7 @@ body {
 }
 
 .icon-gmail:hover {
-    top: -10px;
+    top: -3px;
     transition: 0.5s;
 }
 
@@ -166,6 +166,6 @@ body {
 }
 
 .icon-linkedin:hover {
-    top: -10px;
+    top: -3px;
     transition: 0.5s;
 }

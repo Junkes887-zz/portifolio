@@ -1,0 +1,150 @@
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* .skill {
+    position: absolute;
+    width: 600px;
+    height: 160px;
+    left: 34%;
+    top: 80px;
+    text-align: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.skill h1 {
+    position: absolute;
+    width: 363px;
+    height: 41px;
+    left: 21%;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.skill .description {
+    position: absolute;
+    width: 547px;
+    height: 57px;
+    left: 4%;
+    top: 82px;
+} */
+
+.backend {
+    position: absolute;
+    width: 600px;
+    height: 140px;
+    left: 34%;
+    top: 100px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+
+.backend h1 {
+    position: absolute;
+    width: 363px;
+    height: 41px;
+    left: 6%;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.backend .description {
+    position: absolute;
+    width: 547px;
+    height: 57px;
+    left: 4%;
+    top: 82px;
+}
+
+.frontend {
+    position: absolute;
+    width: 600px;
+    height: 140px;
+    left: 34%;
+    top: 250px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+
+.frontend h1 {
+    position: absolute;
+    width: 363px;
+    height: 41px;
+    left: 6%;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+}
+
+
+.frontend .description {
+    position: absolute;
+    width: 547px;
+    height: 57px;
+    left: 4%;
+    top: 82px;
+}
+
+.others {
+    position: absolute;
+    width: 600px;
+    height: 140px;
+    left: 34%;
+    top: 400px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+}
+
+.others h1 {
+    position: absolute;
+    width: 363px;
+    height: 41px;
+    left: 6%;
+    top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+}
+
+
+.others .description {
+    position: absolute;
+    width: 547px;
+    height: 57px;
+    left: 4%;
+    top: 82px;
+}
